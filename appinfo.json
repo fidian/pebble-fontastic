@@ -11,13 +11,25 @@
             {
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/SourceSansPro/SourceSansPro-Bold.ttf",
-                "name": "SOURCE_SANS_PRO_BOLD_20",
+                "name": "SOURCE_SANS_PRO_BOLD_24",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/SourceSansPro/SourceSansPro-Regular.ttf",
-                "name": "SOURCE_SANS_PRO_20",
+                "name": "SOURCE_SANS_PRO_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/SourceSansPro/SourceSansPro-Bold.ttf",
+                "name": "SOURCE_SANS_PRO_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/SourceSansPro/SourceSansPro-Regular.ttf",
+                "name": "SOURCE_SANS_PRO_16",
                 "type": "font"
             },
             {
@@ -29,7 +41,13 @@
             {
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/PhonebookFont.ttf",
-                "name": "PHONEBOOK_20",
+                "name": "PHONEBOOK_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/PhonebookFont.ttf",
+                "name": "PHONEBOOK_16",
                 "type": "font"
             },
             {
@@ -40,26 +58,50 @@
             },
             {
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
-                "file": "fonts/NoticiaText/NoticiaText-Bold.ttf",
-                "name": "NOTICIA_TEXT_BOLD_20",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
-                "file": "fonts/NoticiaText/NoticiaText-Regular.ttf",
-                "name": "NOTICIA_TEXT_20",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/OpenSansCondensed/OpenSans-CondBold.ttf",
-                "name": "OPEN_SANS_CONDENSED_BOLD_20",
+                "name": "OPEN_SANS_CONDENSED_BOLD_24",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/OpenSansCondensed/OpenSans-CondLight.ttf",
-                "name": "OPEN_SANS_CONDENSED_20",
+                "name": "OPEN_SANS_CONDENSED_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/OpenSansCondensed/OpenSans-CondBold.ttf",
+                "name": "OPEN_SANS_CONDENSED_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/OpenSansCondensed/OpenSans-CondLight.ttf",
+                "name": "OPEN_SANS_CONDENSED_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Bold.ttf",
+                "name": "NOTICIA_TEXT_BOLD_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Regular.ttf",
+                "name": "NOTICIA_TEXT_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Bold.ttf",
+                "name": "NOTICIA_TEXT_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Regular.ttf",
+                "name": "NOTICIA_TEXT_16",
                 "type": "font"
             },
             {
@@ -78,6 +120,30 @@
                 "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
                 "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
                 "name": "ANONYMOUS_PRO_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
+                "name": "ANONYMOUS_PRO_BOLD_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
+                "name": "ANONYMOUS_PRO_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
+                "name": "ANONYMOUS_PRO_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
+                "name": "ANONYMOUS_PRO_16",
                 "type": "font"
             },
             {

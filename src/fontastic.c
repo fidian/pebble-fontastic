@@ -14,45 +14,56 @@ typedef struct {
 } PebbleFont;
 
 PebbleFont pebble_fonts[] = {
-    { .name = "Gothic",   .variant = "14", .res = FONT_KEY_GOTHIC_14 },
-    { .name = "Gothic",   .variant = "14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
-    { .name = "Gothic",   .variant = "18", .res = FONT_KEY_GOTHIC_18 },
-    { .name = "Gothic",   .variant = "18 Bold", .res = FONT_KEY_GOTHIC_18_BOLD },
-    { .name = "Gothic",   .variant = "24", .res = FONT_KEY_GOTHIC_24 },
-    { .name = "Gothic",   .variant = "24 Bold", .res = FONT_KEY_GOTHIC_24_BOLD },
-    { .name = "Gothic",   .variant = "28", .res = FONT_KEY_GOTHIC_28 },
-    { .name = "Gothic",   .variant = "28 Bold", .res = FONT_KEY_GOTHIC_28_BOLD },
+    { .name = "Gothic",   .variant = "System 14", .res = FONT_KEY_GOTHIC_14 },
+    { .name = "Gothic",   .variant = "System 14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
+    { .name = "Gothic",   .variant = "System 18", .res = FONT_KEY_GOTHIC_18 },
+    { .name = "Gothic",   .variant = "System 18 Bold", .res = FONT_KEY_GOTHIC_18_BOLD },
+    { .name = "Gothic",   .variant = "System 24", .res = FONT_KEY_GOTHIC_24 },
+    { .name = "Gothic",   .variant = "System 24 Bold", .res = FONT_KEY_GOTHIC_24_BOLD },
+    { .name = "Gothic",   .variant = "System 28", .res = FONT_KEY_GOTHIC_28 },
+    { .name = "Gothic",   .variant = "System 28 Bold", .res = FONT_KEY_GOTHIC_28_BOLD },
 
-    { .name = "Bitham",   .variant = "30 Black", .res = FONT_KEY_BITHAM_30_BLACK },
-    { .name = "Bitham",   .variant = "42 Bold", .res = FONT_KEY_BITHAM_42_BOLD },
-    { .name = "Bitham",   .variant = "42 Light", .res = FONT_KEY_BITHAM_42_LIGHT },
-    { .name = "Bitham",   .variant = "34 Medium Numbers", .res = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS },
-    { .name = "Bitham",   .variant = "42 Medium Numbers", .res = FONT_KEY_BITHAM_42_MEDIUM_NUMBERS },
+    { .name = "Bitham",   .variant = "System 30 Black", .res = FONT_KEY_BITHAM_30_BLACK },
+    { .name = "Bitham",   .variant = "System 42 Bold", .res = FONT_KEY_BITHAM_42_BOLD },
+    { .name = "Bitham",   .variant = "System 42 Light", .res = FONT_KEY_BITHAM_42_LIGHT },
+    { .name = "Bitham",   .variant = "System 34 Medium Numbers", .res = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS },
+    { .name = "Bitham",   .variant = "System 42 Medium Numbers", .res = FONT_KEY_BITHAM_42_MEDIUM_NUMBERS },
 
-    { .name = "Roboto",   .variant = "21 Condensed", .res = FONT_KEY_ROBOTO_CONDENSED_21 },
-    { .name = "Roboto",   .variant = "49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
+    { .name = "Roboto",   .variant = "System 21 Condensed", .res = FONT_KEY_ROBOTO_CONDENSED_21 },
+    { .name = "Roboto",   .variant = "System 49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
 
-    { .name = "Droid",    .variant = "28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
+    { .name = "Droid",    .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
         
-    { .name = "Anonymous Pro", .variant = "30", .customResource = RESOURCE_ID_ANONYMOUS_PRO_30 },
-    { .name = "Anonymous Pro", .variant = "30 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_30 },
+    { .name = "Anonymous Pro", .variant = "System 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
+    { .name = "Anonymous Pro", .variant = "System 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
+    { .name = "Anonymous Pro", .variant = "System 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
+    { .name = "Anonymous Pro", .variant = "System 24 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_24 },
+    { .name = "Anonymous Pro", .variant = "System 30", .customResource = RESOURCE_ID_ANONYMOUS_PRO_30 },
+    { .name = "Anonymous Pro", .variant = "System 30 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_30 },
         
-    { .name = "Digit", .variant = "30", .customResource = RESOURCE_ID_DIGIT_30 },
+    { .name = "Digit", .variant = "Custom 30", .customResource = RESOURCE_ID_DIGIT_30 },
         
-    { .name = "Noticia", .variant = "20", .customResource = RESOURCE_ID_NOTICIA_TEXT_20 },
-    { .name = "Noticia", .variant = "20 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_20 },
+    { .name = "Noticia", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
+    { .name = "Noticia", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
+    { .name = "Noticia", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
+    { .name = "Noticia", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_24 },
         
-    { .name = "Open Sans Condensed", .variant = "20", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_20 },
-    { .name = "Open Sans Condensed", .variant = "20 Bold", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_20 },
+    { .name = "Open Sans", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_16 },
+    { .name = "Open Sans", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_16 },
+    { .name = "Open Sans", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_24 },
+    { .name = "Open Sans", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_24 },
         
-    { .name = "Pendule Ornamental", .variant = "30", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_30 },
+    { .name = "Pendule Ornamental", .variant = "Custom 30", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_30 },
         
-    { .name = "Phonebook", .variant = "20", .customResource = RESOURCE_ID_PHONEBOOK_20 },
+    { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
+    { .name = "Phonebook", .variant = "Custom 14", .customResource = RESOURCE_ID_PHONEBOOK_24 },
         
-    { .name = "Segment 7", .variant = "30", .customResource = RESOURCE_ID_SEGMENT_SEVEN_30 },
+    { .name = "Segment 7", .variant = "Custom 30", .customResource = RESOURCE_ID_SEGMENT_SEVEN_30 },
     
-    { .name = "Source Sans Pro", .variant = "20", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_20 },
-    { .name = "Source Sans Pro", .variant = "20 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_20 }
+    { .name = "Source Sans Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_16 },
+    { .name = "Source Sans Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_16 },
+    { .name = "Source Sans Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_24 },
+    { .name = "Source Sans Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_24 }
 };
 #define NUM_FONTS sizeof(pebble_fonts) / sizeof(PebbleFont)
 
@@ -64,8 +75,8 @@ PebbleFont pebble_fonts[] = {
 char *messages[] = {
     "0123456789",
     "abcdef ABCDEF",
-    "10:42\n22:11",
-    "john-doe@example.com"
+    "10:42\n2:11.987",
+    "John Doe\njdoe@test"
 };
 #define NUM_MESSAGES sizeof(messages) / sizeof(char*)
 
