@@ -1,0 +1,98 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Tyler Akins",
+    "longName": "Fontastic",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/SourceSansPro/SourceSansPro-Bold.ttf",
+                "name": "SOURCE_SANS_PRO_BOLD_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/SourceSansPro/SourceSansPro-Regular.ttf",
+                "name": "SOURCE_SANS_PRO_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/Segment7/Segment7Standard.ttf",
+                "name": "SEGMENT_SEVEN_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/PhonebookFont.ttf",
+                "name": "PHONEBOOK_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/PenduleOrnamental/pendule_ornamental.ttf",
+                "name": "PENDULE_ORNAMENTAL_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Bold.ttf",
+                "name": "NOTICIA_TEXT_BOLD_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/NoticiaText/NoticiaText-Regular.ttf",
+                "name": "NOTICIA_TEXT_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/OpenSansCondensed/OpenSans-CondBold.ttf",
+                "name": "OPEN_SANS_CONDENSED_BOLD_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/OpenSansCondensed/OpenSans-CondLight.ttf",
+                "name": "OPEN_SANS_CONDENSED_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/Digit.TTF",
+                "name": "DIGIT_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
+                "name": "ANONYMOUS_PRO_BOLD_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fhjlmnopxA-F:@.\\-]",
+                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
+                "name": "ANONYMOUS_PRO_30",
+                "type": "font"
+            },
+            {
+                "file": "images/menu-icon.png",
+                "menuIcon": true,
+                "name": "MENU_IMAGE",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Fontastic",
+    "uuid": "bc511971-ed81-4e9c-b114-062b6f23348f",
+    "versionCode": 2,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
