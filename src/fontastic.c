@@ -48,10 +48,10 @@ PebbleFont pebble_fonts[] = {
     { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
     { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },
 
-    { .name = "Noticia", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
-    { .name = "Noticia", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
-    { .name = "Noticia", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
-    { .name = "Noticia", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_24 },
+    { .name = "Noticia Text", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
+    { .name = "Noticia Text", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
+    { .name = "Noticia Text", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
+    { .name = "Noticia Text", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_24 },
 
     { .name = "Open Sans", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_16 },
     { .name = "Open Sans", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_16 },
