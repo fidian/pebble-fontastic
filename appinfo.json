@@ -10,6 +10,12 @@
         "media": [
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Unicons/unicons.ttf",
+                "name": "UNICONS_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/SourceSansPro/SourceSansPro-Bold.ttf",
                 "name": "SOURCE_SANS_PRO_BOLD_24",
                 "type": "font"
@@ -35,25 +41,85 @@
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/Segment7/Segment7Standard.ttf",
-                "name": "SEGMENT_SEVEN_30",
+                "name": "SEGMENT_SEVEN_48",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
-                "file": "fonts/PhonebookFont.ttf",
+                "file": "fonts/Roboto/RobotoCondensed-Bold.ttf",
+                "name": "ROBOTO_CONDENSED_BOLD_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/RobotoCondensed-Regular.ttf",
+                "name": "ROBOTO_CONDENSED_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/Roboto-Bold.ttf",
+                "name": "ROBOTO_BOLD_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/Roboto-Regular.ttf",
+                "name": "ROBOTO_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/RobotoCondensed-Bold.ttf",
+                "name": "ROBOTO_CONDENSED_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/RobotoCondensed-Regular.ttf",
+                "name": "ROBOTO_CONDENSED_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/Roboto-Bold.ttf",
+                "name": "ROBOTO_BOLD_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Roboto/Roboto-Regular.ttf",
+                "name": "ROBOTO_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Phonebook/PhonebookFont.ttf",
                 "name": "PHONEBOOK_24",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
-                "file": "fonts/PhonebookFont.ttf",
+                "file": "fonts/Phonebook/PhonebookFont.ttf",
                 "name": "PHONEBOOK_16",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/PenduleOrnamental/pendule_ornamental.ttf",
-                "name": "PENDULE_ORNAMENTAL_30",
+                "name": "PENDULE_ORNAMENTAL_48",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/OSP-DIN/OSP-DIN.ttf",
+                "name": "OSP_DIN_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/OSP-DIN/OSP-DIN.ttf",
+                "name": "OSP_DIN_16",
                 "type": "font"
             },
             {
@@ -82,6 +148,18 @@
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Nevis/nevis.ttf",
+                "name": "NEVIS_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
+                "file": "fonts/Nevis/nevis.ttf",
+                "name": "NEVIS_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/NoticiaText/NoticiaText-Bold.ttf",
                 "name": "NOTICIA_TEXT_BOLD_24",
                 "type": "font"
@@ -106,20 +184,20 @@
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
-                "file": "fonts/Digit.TTF",
-                "name": "DIGIT_30",
+                "file": "fonts/Digit/Digit.ttf",
+                "name": "DIGIT_48",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
-                "name": "ANONYMOUS_PRO_BOLD_30",
+                "name": "ANONYMOUS_PRO_BOLD_48",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
-                "name": "ANONYMOUS_PRO_30",
+                "name": "ANONYMOUS_PRO_48",
                 "type": "font"
             },
             {

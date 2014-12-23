@@ -34,36 +34,53 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Droid",    .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
         
-    { .name = "Anonymous Pro", .variant = "System 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
-    { .name = "Anonymous Pro", .variant = "System 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
-    { .name = "Anonymous Pro", .variant = "System 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
-    { .name = "Anonymous Pro", .variant = "System 24 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_24 },
-    { .name = "Anonymous Pro", .variant = "System 30", .customResource = RESOURCE_ID_ANONYMOUS_PRO_30 },
-    { .name = "Anonymous Pro", .variant = "System 30 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_30 },
+    { .name = "Anonymous Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
+    { .name = "Anonymous Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
+    { .name = "Anonymous Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
+    { .name = "Anonymous Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_24 },
+    { .name = "Anonymous Pro", .variant = "Custom 48", .customResource = RESOURCE_ID_ANONYMOUS_PRO_48 },
+    { .name = "Anonymous Pro", .variant = "Custom 48 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_48 },
         
-    { .name = "Digit", .variant = "Custom 30", .customResource = RESOURCE_ID_DIGIT_30 },
+    { .name = "Digit", .variant = "Custom 48", .customResource = RESOURCE_ID_DIGIT_48 },
         
     { .name = "Noticia", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
     { .name = "Noticia", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
     { .name = "Noticia", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
     { .name = "Noticia", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_24 },
+
+    { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
+    { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },
         
     { .name = "Open Sans", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_16 },
     { .name = "Open Sans", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_16 },
     { .name = "Open Sans", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_24 },
     { .name = "Open Sans", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_24 },
+
+    { .name = "OSP-DIN", .variant = "Custom 16", .customResource = RESOURCE_ID_OSP_DIN_16 },
+    { .name = "OSP-DIN", .variant = "Custom 24", .customResource = RESOURCE_ID_OSP_DIN_24 },
         
-    { .name = "Pendule Ornamental", .variant = "Custom 30", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_30 },
+    { .name = "Pendule Ornamental", .variant = "Custom 48", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_48 },
         
     { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
     { .name = "Phonebook", .variant = "Custom 14", .customResource = RESOURCE_ID_PHONEBOOK_24 },
+
+    { .name = "Roboto", .variant = "Custom 16", .customResource = RESOURCE_ID_ROBOTO_16 },
+    { .name = "Roboto", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_16 },
+    { .name = "Roboto", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_16 },
+    { .name = "Roboto", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_16 },
+    { .name = "Roboto", .variant = "Custom 24", .customResource = RESOURCE_ID_ROBOTO_24 },
+    { .name = "Roboto", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_24 },
+    { .name = "Roboto", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_24 },
+    { .name = "Roboto", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_24 },
         
-    { .name = "Segment 7", .variant = "Custom 30", .customResource = RESOURCE_ID_SEGMENT_SEVEN_30 },
+    { .name = "Segment 7", .variant = "Custom 48", .customResource = RESOURCE_ID_SEGMENT_SEVEN_48 },
     
     { .name = "Source Sans Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_16 },
     { .name = "Source Sans Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_16 },
     { .name = "Source Sans Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_24 },
-    { .name = "Source Sans Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_24 }
+    { .name = "Source Sans Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_24 },
+
+    { .name = "UniCons", .variant = "Custom 30", .customResource = RESOURCE_ID_UNICONS_30 }
 };
 #define NUM_FONTS sizeof(pebble_fonts) / sizeof(PebbleFont)
 
