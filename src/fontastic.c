@@ -63,8 +63,8 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Pendule Ornamental", .variant = "Custom 48", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_48 },
 
-    { .name = "Phonebook", .variant = "Custom 14", .customResource = RESOURCE_ID_PHONEBOOK_24 },
     { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
+    { .name = "Phonebook", .variant = "Custom 24", .customResource = RESOURCE_ID_PHONEBOOK_24 },
 
     { .name = "Roboto", .variant = "Custom 16", .customResource = RESOURCE_ID_ROBOTO_16 },
     { .name = "Roboto", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_16 },
