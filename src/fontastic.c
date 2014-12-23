@@ -33,16 +33,16 @@ PebbleFont pebble_fonts[] = {
     { .name = "Roboto",   .variant = "System 49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
 
     { .name = "Droid",    .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
-        
+
     { .name = "Anonymous Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
     { .name = "Anonymous Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
     { .name = "Anonymous Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
     { .name = "Anonymous Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_24 },
     { .name = "Anonymous Pro", .variant = "Custom 48", .customResource = RESOURCE_ID_ANONYMOUS_PRO_48 },
     { .name = "Anonymous Pro", .variant = "Custom 48 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_48 },
-        
+
     { .name = "Digit", .variant = "Custom 48", .customResource = RESOURCE_ID_DIGIT_48 },
-        
+
     { .name = "Noticia", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
     { .name = "Noticia", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
     { .name = "Noticia", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
@@ -50,7 +50,7 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
     { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },
-        
+
     { .name = "Open Sans", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_16 },
     { .name = "Open Sans", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_16 },
     { .name = "Open Sans", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_24 },
@@ -58,9 +58,9 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "OSP-DIN", .variant = "Custom 16", .customResource = RESOURCE_ID_OSP_DIN_16 },
     { .name = "OSP-DIN", .variant = "Custom 24", .customResource = RESOURCE_ID_OSP_DIN_24 },
-        
+
     { .name = "Pendule Ornamental", .variant = "Custom 48", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_48 },
-        
+
     { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
     { .name = "Phonebook", .variant = "Custom 14", .customResource = RESOURCE_ID_PHONEBOOK_24 },
 
@@ -72,9 +72,9 @@ PebbleFont pebble_fonts[] = {
     { .name = "Roboto", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_24 },
     { .name = "Roboto", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_24 },
     { .name = "Roboto", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_24 },
-        
+
     { .name = "Segment 7", .variant = "Custom 48", .customResource = RESOURCE_ID_SEGMENT_SEVEN_48 },
-    
+
     { .name = "Source Sans Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_16 },
     { .name = "Source Sans Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_16 },
     { .name = "Source Sans Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_24 },
@@ -196,12 +196,12 @@ static void show_selected_font_and_message() {
         if (!font->customFont) {
             font->customFont = fonts_load_custom_font(resource_get_handle(font->customResource));
         }
-        
+
         text_layer_set_font(text_layer, font->customFont);
     } else {
         text_layer_set_font(text_layer, fonts_get_system_font(font->res));
     }
-    
+
     text_layer_set_text(text_layer, messages[current_message]);
 
     // Update the font name and font variant at the bottom of the screen
@@ -221,11 +221,11 @@ static void show_selected_font_and_message() {
 
 static void cycle_text_handler(ClickRecognizerRef recognizer, void *context) {
     current_message++;
-    
+
     if ((unsigned)current_message >= NUM_MESSAGES) {
         current_message = 0;
     }
-    
+
     show_selected_font_and_message();
 }
 
@@ -235,7 +235,7 @@ static void select_previous_font_handler(ClickRecognizerRef recognizer, void *co
     if (current_font < 0) {
         current_font = NUM_FONTS - 1;
     }
-    
+
     MenuIndex idx = menu_layer_get_selected_index(menu_layer);
     idx.row = current_font;
     menu_layer_set_selected_index(menu_layer, idx, MenuRowAlignCenter, false);
@@ -244,11 +244,11 @@ static void select_previous_font_handler(ClickRecognizerRef recognizer, void *co
 
 static void select_next_font_handler(ClickRecognizerRef recognizer, void *context) {
     current_font++;
-    
+
     if ((unsigned)current_font >= NUM_FONTS) {
         current_font = 0;
     }
-    
+
     MenuIndex idx = menu_layer_get_selected_index(menu_layer);
     idx.row = current_font;
     menu_layer_set_selected_index(menu_layer, idx, MenuRowAlignCenter, false);
