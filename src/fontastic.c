@@ -1,39 +1,24 @@
-#include "pebble.h"
-
-
-/*
- * List of Pebble's system fonts.
+/**
+ * Show a list of Pebble's system fonts and a selection of useful
+ * custom fonts.  Based on the wonderful SDK example app_font_browser
  */
+
+#include "pebble.h"
 
 typedef struct {
     char *name;
     char *variant;
-    char *res;
-    uint32_t customResource;
-    GFont customFont;
+    char *res;  // System fonts only
+    uint32_t customResource;  // Custom fonts only
+    GFont customFont;  // If this is a custom font, the font's loaded here
 } PebbleFont;
 
+/**
+ * Here is the list of fonts.  They are sorted alphabetically, then by size, then by weight.
+ *
+ * System fonts define `res`.  Custom fonts define `customResource`.
+ */
 PebbleFont pebble_fonts[] = {
-    { .name = "Gothic",   .variant = "System 14", .res = FONT_KEY_GOTHIC_14 },
-    { .name = "Gothic",   .variant = "System 14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
-    { .name = "Gothic",   .variant = "System 18", .res = FONT_KEY_GOTHIC_18 },
-    { .name = "Gothic",   .variant = "System 18 Bold", .res = FONT_KEY_GOTHIC_18_BOLD },
-    { .name = "Gothic",   .variant = "System 24", .res = FONT_KEY_GOTHIC_24 },
-    { .name = "Gothic",   .variant = "System 24 Bold", .res = FONT_KEY_GOTHIC_24_BOLD },
-    { .name = "Gothic",   .variant = "System 28", .res = FONT_KEY_GOTHIC_28 },
-    { .name = "Gothic",   .variant = "System 28 Bold", .res = FONT_KEY_GOTHIC_28_BOLD },
-
-    { .name = "Bitham",   .variant = "System 30 Black", .res = FONT_KEY_BITHAM_30_BLACK },
-    { .name = "Bitham",   .variant = "System 42 Bold", .res = FONT_KEY_BITHAM_42_BOLD },
-    { .name = "Bitham",   .variant = "System 42 Light", .res = FONT_KEY_BITHAM_42_LIGHT },
-    { .name = "Bitham",   .variant = "System 34 Medium Numbers", .res = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS },
-    { .name = "Bitham",   .variant = "System 42 Medium Numbers", .res = FONT_KEY_BITHAM_42_MEDIUM_NUMBERS },
-
-    { .name = "Roboto",   .variant = "System 21 Condensed", .res = FONT_KEY_ROBOTO_CONDENSED_21 },
-    { .name = "Roboto",   .variant = "System 49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
-
-    { .name = "Droid",    .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
-
     { .name = "Anonymous Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
     { .name = "Anonymous Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
     { .name = "Anonymous Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
@@ -41,15 +26,32 @@ PebbleFont pebble_fonts[] = {
     { .name = "Anonymous Pro", .variant = "Custom 48", .customResource = RESOURCE_ID_ANONYMOUS_PRO_48 },
     { .name = "Anonymous Pro", .variant = "Custom 48 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_48 },
 
+    { .name = "Bitham", .variant = "System 30 Black", .res = FONT_KEY_BITHAM_30_BLACK },
+    { .name = "Bitham", .variant = "System 34 Medium Numbers", .res = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS },
+    { .name = "Bitham", .variant = "System 42 Light", .res = FONT_KEY_BITHAM_42_LIGHT },
+    { .name = "Bitham", .variant = "System 42 Medium Numbers", .res = FONT_KEY_BITHAM_42_MEDIUM_NUMBERS },
+    { .name = "Bitham", .variant = "System 42 Bold", .res = FONT_KEY_BITHAM_42_BOLD },
+
     { .name = "Digit", .variant = "Custom 48", .customResource = RESOURCE_ID_DIGIT_48 },
+
+    { .name = "Droid", .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
+
+    { .name = "Gothic", .variant = "System 14", .res = FONT_KEY_GOTHIC_14 },
+    { .name = "Gothic", .variant = "System 14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
+    { .name = "Gothic", .variant = "System 18", .res = FONT_KEY_GOTHIC_18 },
+    { .name = "Gothic", .variant = "System 18 Bold", .res = FONT_KEY_GOTHIC_18_BOLD },
+    { .name = "Gothic", .variant = "System 24", .res = FONT_KEY_GOTHIC_24 },
+    { .name = "Gothic", .variant = "System 24 Bold", .res = FONT_KEY_GOTHIC_24_BOLD },
+    { .name = "Gothic", .variant = "System 28", .res = FONT_KEY_GOTHIC_28 },
+    { .name = "Gothic", .variant = "System 28 Bold", .res = FONT_KEY_GOTHIC_28_BOLD },
+
+    { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
+    { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },
 
     { .name = "Noticia", .variant = "Custom 16", .customResource = RESOURCE_ID_NOTICIA_TEXT_16 },
     { .name = "Noticia", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_16 },
     { .name = "Noticia", .variant = "Custom 24", .customResource = RESOURCE_ID_NOTICIA_TEXT_24 },
     { .name = "Noticia", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_NOTICIA_TEXT_BOLD_24 },
-
-    { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
-    { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },
 
     { .name = "Open Sans", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_16 },
     { .name = "Open Sans", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_OPEN_SANS_CONDENSED_BOLD_16 },
@@ -61,17 +63,19 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Pendule Ornamental", .variant = "Custom 48", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_48 },
 
-    { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
     { .name = "Phonebook", .variant = "Custom 14", .customResource = RESOURCE_ID_PHONEBOOK_24 },
+    { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
 
     { .name = "Roboto", .variant = "Custom 16", .customResource = RESOURCE_ID_ROBOTO_16 },
     { .name = "Roboto", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_16 },
     { .name = "Roboto", .variant = "Custom 16 Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_16 },
     { .name = "Roboto", .variant = "Custom 16 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_16 },
+    { .name = "Roboto", .variant = "System 21 Condensed", .res = FONT_KEY_ROBOTO_CONDENSED_21 },
     { .name = "Roboto", .variant = "Custom 24", .customResource = RESOURCE_ID_ROBOTO_24 },
     { .name = "Roboto", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ROBOTO_BOLD_24 },
     { .name = "Roboto", .variant = "Custom 24 Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_24 },
     { .name = "Roboto", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_24 },
+    { .name = "Roboto", .variant = "System 49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
 
     { .name = "Segment 7", .variant = "Custom 48", .customResource = RESOURCE_ID_SEGMENT_SEVEN_48 },
 
@@ -85,9 +89,8 @@ PebbleFont pebble_fonts[] = {
 #define NUM_FONTS sizeof(pebble_fonts) / sizeof(PebbleFont)
 
 
-/*
+/**
  * List of messages to try the font with. The user can cycle through them.
- * PCRE pattern for limiting fonts:  [ 0-9a-fhjlmnopxA-F:@.\-]
  */
 char *messages[] = {
     "0123456789",
@@ -98,7 +101,7 @@ char *messages[] = {
 #define NUM_MESSAGES sizeof(messages) / sizeof(char*)
 
 
-/*
+/**
  * Global and static UI elements.
  *
  * This app uses two window:
@@ -193,12 +196,14 @@ static void show_selected_font_and_message() {
 
     // Update the font and text for the demo message
     if (font->customResource) {
+        // Custom fonts get loaded into the `customFont` bit of the struct
         if (!font->customFont) {
             font->customFont = fonts_load_custom_font(resource_get_handle(font->customResource));
         }
 
         text_layer_set_font(text_layer, font->customFont);
     } else {
+        // System fonts use a slightly different loader
         text_layer_set_font(text_layer, fonts_get_system_font(font->res));
     }
 
