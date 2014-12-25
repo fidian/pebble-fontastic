@@ -3,7 +3,9 @@ Fontastic - Font Showcasing for Pebble
 
 This font preview app is based off the [app_font_browser] sample app and has been expanded to include many custom fonts and different text messages in each font.
 
-It's published in the Pebble AppStore.  You do not need to compile this yourself.
+It's published in the Pebble Appstore.  You do not need to compile the sample application yourself nor add additional fonts to preview.  This also shows off the necessary lines of code to load up your own custom fonts.
+
+[Forum Discussion](http://forums.getpebble.com/discussion/18957) - [Pebble Appstore](https://apps.getpebble.com/applications/5498fac473268fc7d4000077)
 
 
 Usage
@@ -19,7 +21,7 @@ That's all there is to it.
 How To Compile
 --------------
 
-Clone this repository on GitHub.  Then fire up [CloudPebble] and import this project from GitHub.  Open the source file `fontastic.c` and then press the green button to compile and send this to your phone.  Make sure you have the developer channel enabled on your phone and ideally it will get sent to your pebble within moments.
+Fire up [CloudPebble] and import this project from GitHub.  Open the source file `fontastic.c` and then press the green button to compile and send this to your phone.  Make sure you have the developer channel enabled on your phone and ideally it will get sent to your pebble within moments.
 
 
 About the Fonts
