@@ -130,7 +130,7 @@ This is a sans serif typeface intended to work well in user interfaces.  Simplif
 ### [UniCons](http://openfontlibrary.org/font/unicons) by Juergen Kraus
 
 <span style="border: 1px solid black">
-    <img src="screenshhots/unicons.png" />
+    <img src="screenshots/unicons.png" />
 </span>
 
 A monospaced font consisting of common user interface symbols.  Licensed under the Open Font License version 1.1 ([OFL]).
