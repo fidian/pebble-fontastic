@@ -21,10 +21,8 @@ typedef struct {
 PebbleFont pebble_fonts[] = {
     { .name = "Anonymous Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_ANONYMOUS_PRO_16 },
     { .name = "Anonymous Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_16 },
-    { .name = "Anonymous Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_ANONYMOUS_PRO_24 },
-    { .name = "Anonymous Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_24 },
-    { .name = "Anonymous Pro", .variant = "Custom 48", .customResource = RESOURCE_ID_ANONYMOUS_PRO_48 },
-    { .name = "Anonymous Pro", .variant = "Custom 48 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_48 },
+    { .name = "Anonymous Pro", .variant = "Custom 32", .customResource = RESOURCE_ID_ANONYMOUS_PRO_32 },
+    { .name = "Anonymous Pro", .variant = "Custom 32 Bold", .customResource = RESOURCE_ID_ANONYMOUS_PRO_BOLD_32 },
 
     { .name = "Bitham", .variant = "System 30 Black", .res = FONT_KEY_BITHAM_30_BLACK },
     { .name = "Bitham", .variant = "System 34 Medium Numbers", .res = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS },
@@ -32,7 +30,7 @@ PebbleFont pebble_fonts[] = {
     { .name = "Bitham", .variant = "System 42 Medium Numbers", .res = FONT_KEY_BITHAM_42_MEDIUM_NUMBERS },
     { .name = "Bitham", .variant = "System 42 Bold", .res = FONT_KEY_BITHAM_42_BOLD },
 
-    { .name = "Digit", .variant = "Custom 48", .customResource = RESOURCE_ID_DIGIT_48 },
+    { .name = "Digit", .variant = "Custom 32", .customResource = RESOURCE_ID_DIGIT_32 },
 
     { .name = "Droid", .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
 
@@ -61,7 +59,7 @@ PebbleFont pebble_fonts[] = {
     { .name = "OSP-DIN", .variant = "Custom 16", .customResource = RESOURCE_ID_OSP_DIN_16 },
     { .name = "OSP-DIN", .variant = "Custom 24", .customResource = RESOURCE_ID_OSP_DIN_24 },
 
-    { .name = "Pendule Ornamental", .variant = "Custom 48", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_48 },
+    { .name = "Pendule Ornamental", .variant = "Custom 32", .customResource = RESOURCE_ID_PENDULE_ORNAMENTAL_32 },
 
     { .name = "Phonebook", .variant = "Custom 16", .customResource = RESOURCE_ID_PHONEBOOK_16 },
     { .name = "Phonebook", .variant = "Custom 24", .customResource = RESOURCE_ID_PHONEBOOK_24 },
@@ -77,14 +75,14 @@ PebbleFont pebble_fonts[] = {
     { .name = "Roboto", .variant = "Custom 24 Bold Condensed", .customResource = RESOURCE_ID_ROBOTO_CONDENSED_BOLD_24 },
     { .name = "Roboto", .variant = "System 49 Bold Subset", .res = FONT_KEY_ROBOTO_BOLD_SUBSET_49 },
 
-    { .name = "Segment 7", .variant = "Custom 48", .customResource = RESOURCE_ID_SEGMENT_SEVEN_48 },
+    { .name = "Segment 7", .variant = "Custom 32", .customResource = RESOURCE_ID_SEGMENT_SEVEN_32 },
 
     { .name = "Source Sans Pro", .variant = "Custom 16", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_16 },
     { .name = "Source Sans Pro", .variant = "Custom 16 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_16 },
     { .name = "Source Sans Pro", .variant = "Custom 24", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_24 },
     { .name = "Source Sans Pro", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_SOURCE_SANS_PRO_BOLD_24 },
 
-    { .name = "UniCons", .variant = "Custom 30", .customResource = RESOURCE_ID_UNICONS_30 }
+    { .name = "UniCons", .variant = "Custom 24", .customResource = RESOURCE_ID_UNICONS_24 }
 };
 #define NUM_FONTS sizeof(pebble_fonts) / sizeof(PebbleFont)
 

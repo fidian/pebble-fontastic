@@ -11,7 +11,7 @@
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/Unicons/unicons.ttf",
-                "name": "UNICONS_30",
+                "name": "UNICONS_24",
                 "type": "font"
             },
             {
@@ -41,7 +41,7 @@
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/Segment7/Segment7Standard.ttf",
-                "name": "SEGMENT_SEVEN_48",
+                "name": "SEGMENT_SEVEN_32",
                 "type": "font"
             },
             {
@@ -107,7 +107,7 @@
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/PenduleOrnamental/pendule_ornamental.ttf",
-                "name": "PENDULE_ORNAMENTAL_48",
+                "name": "PENDULE_ORNAMENTAL_32",
                 "type": "font"
             },
             {
@@ -185,31 +185,19 @@
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/Digit/Digit.ttf",
-                "name": "DIGIT_48",
+                "name": "DIGIT_32",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
-                "name": "ANONYMOUS_PRO_BOLD_48",
+                "name": "ANONYMOUS_PRO_BOLD_32",
                 "type": "font"
             },
             {
                 "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
                 "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
-                "name": "ANONYMOUS_PRO_48",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
-                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro B.ttf",
-                "name": "ANONYMOUS_PRO_BOLD_24",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[ 0-9a-fA-F:.John Doejdoe@test]",
-                "file": "fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf",
-                "name": "ANONYMOUS_PRO_24",
+                "name": "ANONYMOUS_PRO_32",
                 "type": "font"
             },
             {
