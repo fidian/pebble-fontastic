@@ -5,7 +5,7 @@ This font preview app is based off the [app_font_browser] sample app and has bee
 
 It's published in the Pebble Appstore.  You do not need to compile the sample application yourself nor add additional fonts to preview.  This also shows off the necessary lines of code to load up your own custom fonts.
 
-[Forum Discussion](http://forums.getpebble.com/discussion/18957) - [Pebble Appstore](https://apps.getpebble.com/applications/5498fac473268fc7d4000077)
+[Forum Discussion] - [Pebble Appstore](https://apps.getpebble.com/applications/5498fac473268fc7d4000077)
 
 
 Usage
@@ -37,11 +37,32 @@ These fonts have been hand selected for a variety of purposes.  Some are good di
 A very clean monospaced font.  Designed with coding in mind.  Released under the Open Font License version 1.1 ([OFL]).
 
 
+### [Bitham](http://www.typography.com/fonts/gotham/overview/) by the Hoefler & Frere-Jones Type Foundry
+
+![](screenshots/bitham.png)
+
+Bitham is a renamed Gothan font and is built-in to Pebble.  The TTF files are not not in this project because the font is not freely available.
+
+
 ### [Digit](http://www.dafont.com/digit.font) by paldave
 
 ![](screenshots/digit.png)
 
 Digital clock based font with readable letters.  Monospaced.  Source cites "100% Free".
+
+
+### [Droid](https://github.com/android/platform_frameworks_base/tree/master/data/fonts) by Steve Matteson
+
+![](screenshots/droid.png)
+
+Droid is a font that comes with the Pebble.  This font family was created for small screens of mobile devices.  They are licensed under the Apache License version 2.0 ([APACHE]).
+
+
+### [Gotham](http://www.typography.com/fonts/gotham/overview/) by the Hoefler & Frere-Jones Type Foundry
+
+![](screenshots/gotham.png)
+
+Gotham comes with the Pebble.  The TTF files are not not in this project because the font is not freely available.
 
 
 ### [Nevis](http://tenbytwenty.com/?xxxx_posts=nevis) by Ed Merritt
@@ -114,6 +135,12 @@ This is a sans serif typeface intended to work well in user interfaces.  Simplif
 A monospaced font consisting of common user interface symbols.  Licensed under the Open Font License version 1.1 ([OFL]).
 
 
+More Fonts?
+-----------
+
+Do you have one that you would like to include?  Drop me a line by filing a [feature request](https://github.com/fidian/pebble-fontastic/issues) or post in the [forum discussion].
+
+
 License Information
 -------------------
 
@@ -130,4 +157,5 @@ Fonts are licensed under multiple licenses.  For convenience, each font cites th
 [app_font_browser]: https://github.com/pebble/pebble-sdk-examples/tree/master/watchapps/app_font_browser
 [CC-ASL]: CC-ASL.md
 [CloudPebble]: https://cloudpebble.net/
+[Forum Discussion]: http://forums.getpebble.com/discussion/18957
 [OFL]: OFL.md
