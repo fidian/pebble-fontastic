@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd "${0%/*}"
+
+# Get the letters needed for the various messages
+#    Get the messages[] array
+#    Remove "\n" (newline in C) from the strings
+#    Make this into one line
+LETTERS=$(sed -n '/messages\[\]/,/NUM_MESSAGES/ s/.*"\([^"]*\)".*/\1/ p' src/fontastic.c | \
+    sed 's/\\n//g' | \
+    tr -d "\n")
+
+# Remove duplicates
+LETTERS=$(echo "$LETTERS" | sed 's/./&\n/g' | LC_ALL=C sort -u | tr -d "\n")
+
+# Escape hyphens by moving them to the front
+LETTERS=$(echo "$LETTERS" | sed 's/\(.*\)[-]/-\1/g')
+
+# Add some shortcuts
+LETTERS=$(echo "$LETTERS" | sed 's/0123456789/0-9/' | sed 's/abcdef/a-f/g' | sed 's/ABCDEF/A-F/g')
+
+sed -i 's/\(characterRegex": "\)[^"]*\("\)/\1['"$LETTERS"']\2/' appinfo.json
