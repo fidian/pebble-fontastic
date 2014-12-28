@@ -138,7 +138,7 @@ A monospaced font consisting of common user interface symbols.  Licensed under t
 More Fonts?
 -----------
 
-Do you have one that you would like to include?  Drop me a line by filing a [feature request](https://github.com/fidian/pebble-fontastic/issues) or post in the [forum discussion].
+Do you have one that you would like to include?  Drop me a line by filing a [feature request](https://github.com/fidian/pebble-fontastic/issues) or post in the [forum discussion].  Please keep in mind that only so many custom fonts can be included in the application because there's a hard limit of 96k of resources allowed.
 
 
 License Information
