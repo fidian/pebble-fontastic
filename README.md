@@ -5,7 +5,7 @@ This font preview app is based off the [app_font_browser] sample app and has bee
 
 It's published in the Pebble Appstore.  You do not need to compile the sample application yourself nor add additional fonts to preview.  This also shows off the necessary lines of code to load up your own custom fonts.
 
-![](http://pblweb.com/badge/5498fac473268fc7d4000077/black/medium)
+[![](http://pblweb.com/badge/5498fac473268fc7d4000077/black/medium)](https://apps.getpebble.com/applications/5498fac473268fc7d4000077)
 
 [Forum Discussion] - [Pebble Appstore](https://apps.getpebble.com/applications/5498fac473268fc7d4000077)
 
