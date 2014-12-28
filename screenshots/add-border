@@ -1,0 +1,13 @@
+#!/bin/bash
+TMP=$(mktemp)
+
+convert -border 2x2 -bordercolor "#777" "$1" "$TMP"
+RESULT=$?
+
+if [ $RESULT -eq 0 ]; then
+    mv "$TMP" "$1"
+else
+    rm "$TMP"
+fi
+
+exit $RESULT
