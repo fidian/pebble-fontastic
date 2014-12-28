@@ -91,10 +91,10 @@ PebbleFont pebble_fonts[] = {
  * List of messages to try the font with. The user can cycle through them.
  */
 char *messages[] = {
-    "0123456789",
+    "01234-56789",
     "abcdef ABCDEF",
     "10:42\n2:11.987",
-    "John Doe\njdoe@test"
+    "Derek C. Babbot\ndbabbot@test"
 };
 #define NUM_MESSAGES sizeof(messages) / sizeof(char*)
 
