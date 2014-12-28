@@ -184,6 +184,30 @@
             },
             {
                 "characterRegex": "[- .0-9:@A-Fa-fkorst]",
+                "file": "fonts/Merriweather/Merriweather-Bold.ttf",
+                "name": "MERRIWEATHER_BOLD_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[- .0-9:@A-Fa-fkorst]",
+                "file": "fonts/Merriweather/Merriweather-Regular.ttf",
+                "name": "MERRIWEATHER_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[- .0-9:@A-Fa-fkorst]",
+                "file": "fonts/Merriweather/Merriweather-Light.ttf",
+                "name": "MERRIWEATHER_LIGHT_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[- .0-9:@A-Fa-fkorst]",
+                "file": "fonts/Fjalla/FjallaOne-Regular.ttf",
+                "name": "FJALLA_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[- .0-9:@A-Fa-fkorst]",
                 "file": "fonts/Digit/Digit.ttf",
                 "name": "DIGIT_32",
                 "type": "font"

@@ -34,6 +34,8 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Droid", .variant = "System 28 Bold", .res = FONT_KEY_DROID_SERIF_28_BOLD },
 
+    { .name = "Fjalla", .variant = "Custom 24", .customResource = RESOURCE_ID_FJALLA_24 },
+
     { .name = "Gothic", .variant = "System 14", .res = FONT_KEY_GOTHIC_14 },
     { .name = "Gothic", .variant = "System 14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
     { .name = "Gothic", .variant = "System 18", .res = FONT_KEY_GOTHIC_18 },
@@ -42,6 +44,10 @@ PebbleFont pebble_fonts[] = {
     { .name = "Gothic", .variant = "System 24 Bold", .res = FONT_KEY_GOTHIC_24_BOLD },
     { .name = "Gothic", .variant = "System 28", .res = FONT_KEY_GOTHIC_28 },
     { .name = "Gothic", .variant = "System 28 Bold", .res = FONT_KEY_GOTHIC_28_BOLD },
+
+    { .name = "Merriweather", .variant = "Custom 24 Light", .customResource = RESOURCE_ID_MERRIWEATHER_LIGHT_24 },
+    { .name = "Merriweather", .variant = "Custom 24", .customResource = RESOURCE_ID_MERRIWEATHER_24 },
+    { .name = "Merriweather", .variant = "Custom 24 Bold", .customResource = RESOURCE_ID_MERRIWEATHER_BOLD_24 },
 
     { .name = "Nevis", .variant = "Custom 16", .customResource = RESOURCE_ID_NEVIS_16 },
     { .name = "Nevis", .variant = "Custom 24", .customResource = RESOURCE_ID_NEVIS_24 },

@@ -60,11 +60,25 @@ Digital clock based font with readable letters.  Monospaced.  Source cites "100%
 Droid is a font that comes with the Pebble.  This font family was created for small screens of mobile devices.  They are licensed under the Apache License version 2.0 ([APACHE]).
 
 
+### [Fjalla](http://www.fontsquirrel.com/fonts/fjalla) by Sorkin Type Co
+
+![](screenshots/fjalla.png)
+
+This is a condensed, medium contrast bold font, suitable for use in headlines.  It is licensed under the Open Font License version 1.1 ([OFL]).
+
+
 ### [Gothic](http://www.myfonts.com/fonts/marksimonson/raster-gothic/) by Mark Simonson
 
 ![](screenshots/gothic.png)
 
 Raster Gothic (or, as known on the Pebble, Gothic) was created as a series of outline fonts that retain the aliased look of a bitmap font.  It's clarity and crispness are why it's added to the Pebble by default.  This is not a free font and its TTF files are not included in this project.
+
+
+### [Merriweather](http://www.fontsquirrel.com/fonts/merriweather) by Eben Sorkin
+
+![](screenshots/merriweather.png)
+
+Merriweather is designed for better text readability and is slightly condensed.  It is licensed under the Open Font License version 1.1 ([OFL]).
 
 
 ### [Nevis](http://tenbytwenty.com/?xxxx_posts=nevis) by Ed Merritt
