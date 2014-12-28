@@ -43,7 +43,7 @@ A very clean monospaced font.  Designed with coding in mind.  Released under the
 
 ![](screenshots/bitham.png)
 
-Bitham is a renamed Gothan font and is built-in to Pebble.  The TTF files are not not in this project because the font is not freely available.
+Bitham is a renamed Gotham font and is built-in to Pebble.  The TTF files are not not in this project because the font is not freely available.
 
 
 ### [Digit](http://www.dafont.com/digit.font) by paldave
@@ -60,11 +60,11 @@ Digital clock based font with readable letters.  Monospaced.  Source cites "100%
 Droid is a font that comes with the Pebble.  This font family was created for small screens of mobile devices.  They are licensed under the Apache License version 2.0 ([APACHE]).
 
 
-### [Gotham](http://www.typography.com/fonts/gotham/overview/) by the Hoefler & Frere-Jones Type Foundry
+### [Gothic](http://www.myfonts.com/fonts/marksimonson/raster-gothic/) by Mark Simonson
 
-![](screenshots/gotham.png)
+![](screenshots/gothic.png)
 
-Gotham comes with the Pebble.  The TTF files are not not in this project because the font is not freely available.
+Raster Gothic (or, as known on the Pebble, Gothic) was created as a series of outline fonts that retain the aliased look of a bitmap font.  It's clarity and crispness are why it's added to the Pebble by default.  This is not a free font and its TTF files are not included in this project.
 
 
 ### [Nevis](http://tenbytwenty.com/?xxxx_posts=nevis) by Ed Merritt
