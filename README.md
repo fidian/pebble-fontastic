@@ -67,6 +67,13 @@ Droid is a font that comes with the Pebble.  This font family was created for sm
 This is a condensed, medium contrast bold font, suitable for use in headlines.  It is licensed under the Open Font License version 1.1 ([OFL]).
 
 
+### [GnuMICR](http://www.sandeen.net/GnuMICR/) by Eric Sandeen
+
+![](screenshots/gnumicr.png)
+
+Magnetic Ink Character Recognition font, used at the bottom of checks.  This font was made to be an open source alternative to commercial MICR fonts.  It is licensed under the GNU General Public License version 2.0 ([GPL2]).
+
+
 ### [Gothic](http://www.myfonts.com/fonts/marksimonson/raster-gothic/) by Mark Simonson
 
 ![](screenshots/gothic.png)
@@ -166,6 +173,7 @@ Fonts are licensed under multiple licenses.  For convenience, each font cites th
 
 * Apache License version 2 - [APACHE]
 * Creative Commons Attribution-ShareALike License version 3.0 - [CC-ASL]
+* GNU General Purpose License version 2 - [GPL2]
 * Open Font License version 1.1 - [OFL]
 
 
@@ -174,4 +182,5 @@ Fonts are licensed under multiple licenses.  For convenience, each font cites th
 [CC-ASL]: CC-ASL.md
 [CloudPebble]: https://cloudpebble.net/
 [Forum Discussion]: http://forums.getpebble.com/discussion/18957
+[GPL2]: GPL2.md
 [OFL]: OFL.md

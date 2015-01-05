@@ -36,6 +36,8 @@ PebbleFont pebble_fonts[] = {
 
     { .name = "Fjalla", .variant = "Custom 24", .customResource = RESOURCE_ID_FJALLA_24 },
 
+    { .name = "GnuMICR", .variant = "Custom 32", .customResource = RESOURCE_ID_GNUMICR_32 },
+
     { .name = "Gothic", .variant = "System 14", .res = FONT_KEY_GOTHIC_14 },
     { .name = "Gothic", .variant = "System 14 Bold", .res = FONT_KEY_GOTHIC_14_BOLD },
     { .name = "Gothic", .variant = "System 18", .res = FONT_KEY_GOTHIC_18 },

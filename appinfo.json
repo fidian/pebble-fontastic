@@ -202,6 +202,12 @@
             },
             {
                 "characterRegex": "[- .0-9:@A-Fa-fkorst]",
+                "file": "fonts/GnuMICR/GnuMICR.ttf",
+                "name": "GNUMICR_32",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[- .0-9:@A-Fa-fkorst]",
                 "file": "fonts/Fjalla/FjallaOne-Regular.ttf",
                 "name": "FJALLA_24",
                 "type": "font"
