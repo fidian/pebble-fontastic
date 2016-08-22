@@ -23,7 +23,7 @@ That's all there is to it.
 How To Compile
 --------------
 
-Fire up [CloudPebble] and import this project from GitHub.  Open the source file `fontastic.c` and then press the green button to compile and send this to your phone.  Make sure you have the developer channel enabled on your phone and ideally it will get sent to your pebble within moments.
+Fire up [CloudPebble] and import this project from GitHub by clicking [ImportToCloudPebble].  Open the source file `fontastic.c` and then press the green button to compile and send this to your phone.  Make sure you have the developer channel enabled on your phone and ideally it will get sent to your pebble within moments.
 
 
 About the Fonts
@@ -183,4 +183,5 @@ Fonts are licensed under multiple licenses.  For convenience, each font cites th
 [CloudPebble]: https://cloudpebble.net/
 [Forum Discussion]: http://forums.getpebble.com/discussion/18957
 [GPL2]: GPL2.md
+[ImportToCloudPebble]: https://cloudpebble.net/ide/import/github/fidian/pebble-fontastic/
 [OFL]: OFL.md
